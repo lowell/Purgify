@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363E5FD01579DFF000B45E6B /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E5FCF1579DFF000B45E6B /* Growl.framework */; };
+		363E5FE01579E32E00B45E6B /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 363E5FCF1579DFF000B45E6B /* Growl.framework */; };
+		363E5FE71579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E5FE61579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.m */; };
+		3664EF0B157F45FB00940867 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36903E571579917200072262 /* AppKit.framework */; };
+		3664EF0C157F460100940867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36903E591579917200072262 /* Foundation.framework */; };
+		367857D1157F4BD6004BA754 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367857D3157F4BD6004BA754 /* StatusMenu.xib */; };
+		367857D7157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 367857D6157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.m */; };
+		367857DA157F57B5004BA754 /* PAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 367857D9157F57B5004BA754 /* PAConstants.m */; };
+		36903E611579917200072262 /* Purgify.m in Sources */ = {isa = PBXBuildFile; fileRef = 36903E601579917200072262 /* Purgify.m */; };
+		36903E681579917200072262 /* PAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36903E671579917200072262 /* PAAppDelegate.m */; };
+		36903E6B1579917300072262 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36903E691579917300072262 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		363E5FDF1579E32600B45E6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				363E5FE01579E32E00B45E6B /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		363E5FCF1579DFF000B45E6B /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Support/Growl/Growl.framework; sourceTree = "<group>"; };
+		363E5FE51579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+PAFriendlyNumberFormatting.h"; sourceTree = "<group>"; };
+		363E5FE61579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+PAFriendlyNumberFormatting.m"; sourceTree = "<group>"; };
+		367857D2157F4BD6004BA754 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StatusMenu.xib; sourceTree = "<group>"; };
+		367857D5157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+PAAvailablePhysicalMemory.h"; sourceTree = "<group>"; };
+		367857D6157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+PAAvailablePhysicalMemory.m"; sourceTree = "<group>"; };
+		367857D8157F57AC004BA754 /* PAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAConstants.h; sourceTree = "<group>"; };
+		367857D9157F57B5004BA754 /* PAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAConstants.m; sourceTree = "<group>"; };
+		36903E501579917200072262 /* Purgify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purgify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36903E571579917200072262 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		36903E591579917200072262 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36903E5C1579917200072262 /* Purgify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purgify-Info.plist"; sourceTree = "<group>"; };
+		36903E601579917200072262 /* Purgify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Purgify.m; sourceTree = "<group>"; };
+		36903E621579917200072262 /* Purgify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Purgify-Prefix.pch"; sourceTree = "<group>"; };
+		36903E641579917200072262 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		36903E661579917200072262 /* PAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppDelegate.h; sourceTree = "<group>"; };
+		36903E671579917200072262 /* PAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppDelegate.m; sourceTree = "<group>"; };
+		36903E6A1579917300072262 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36903E4D1579917200072262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3664EF0C157F460100940867 /* Foundation.framework in Frameworks */,
+				3664EF0B157F45FB00940867 /* AppKit.framework in Frameworks */,
+				363E5FD01579DFF000B45E6B /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363E5FE91579F11000B45E6B /* NSAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				363E5FE51579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.h */,
+				363E5FE61579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.m */,
+				367857D5157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.h */,
+				367857D6157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.m */,
+			);
+			name = NSAdditions;
+			sourceTree = "<group>";
+		};
+		367857DB157F5A94004BA754 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				367857D3157F4BD6004BA754 /* StatusMenu.xib */,
+				36903E691579917300072262 /* MainMenu.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		36903E451579917100072262 = {
+			isa = PBXGroup;
+			children = (
+				36903E5A1579917200072262 /* Purgify */,
+				36903E531579917200072262 /* Frameworks */,
+				36903E511579917200072262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36903E511579917200072262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36903E501579917200072262 /* Purgify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36903E531579917200072262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36903E591579917200072262 /* Foundation.framework */,
+				36903E571579917200072262 /* AppKit.framework */,
+				363E5FCF1579DFF000B45E6B /* Growl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36903E5A1579917200072262 /* Purgify */ = {
+			isa = PBXGroup;
+			children = (
+				36903E661579917200072262 /* PAAppDelegate.h */,
+				36903E671579917200072262 /* PAAppDelegate.m */,
+				367857D8157F57AC004BA754 /* PAConstants.h */,
+				367857D9157F57B5004BA754 /* PAConstants.m */,
+				36903E601579917200072262 /* Purgify.m */,
+				367857DB157F5A94004BA754 /* UI */,
+				363E5FE91579F11000B45E6B /* NSAdditions */,
+				36903E5B1579917200072262 /* Supporting Files */,
+			);
+			path = Purgify;
+			sourceTree = "<group>";
+		};
+		36903E5B1579917200072262 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36903E5C1579917200072262 /* Purgify-Info.plist */,
+				36903E621579917200072262 /* Purgify-Prefix.pch */,
+				36903E631579917200072262 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36903E4F1579917200072262 /* Purgify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36903E6E1579917300072262 /* Build configuration list for PBXNativeTarget "Purgify" */;
+			buildPhases = (
+				36903E4C1579917200072262 /* Sources */,
+				36903E4D1579917200072262 /* Frameworks */,
+				36903E4E1579917200072262 /* Resources */,
+				363E5FDF1579E32600B45E6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purgify;
+			productName = Purgify;
+			productReference = 36903E501579917200072262 /* Purgify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36903E471579917100072262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 36903E4A1579917100072262 /* Build configuration list for PBXProject "Purgify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36903E451579917100072262;
+			productRefGroup = 36903E511579917200072262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36903E4F1579917200072262 /* Purgify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36903E4E1579917200072262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36903E6B1579917300072262 /* MainMenu.xib in Resources */,
+				367857D1157F4BD6004BA754 /* StatusMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36903E4C1579917200072262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36903E611579917200072262 /* Purgify.m in Sources */,
+				36903E681579917200072262 /* PAAppDelegate.m in Sources */,
+				363E5FE71579F10A00B45E6B /* NSNumber+PAFriendlyNumberFormatting.m in Sources */,
+				367857D7157F515C004BA754 /* NSProcessInfo+PAAvailablePhysicalMemory.m in Sources */,
+				367857DA157F57B5004BA754 /* PAConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		367857D3157F4BD6004BA754 /* StatusMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367857D2157F4BD6004BA754 /* en */,
+			);
+			name = StatusMenu.xib;
+			sourceTree = "<group>";
+		};
+		36903E631579917200072262 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36903E641579917200072262 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		36903E691579917300072262 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36903E6A1579917300072262 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36903E6C1579917300072262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		36903E6D1579917300072262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		36903E6F1579917300072262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Development/tCB/Repositorium/Purgify/Support/Growl\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purgify/Purgify-Prefix.pch";
+				INFOPLIST_FILE = "Purgify/Purgify-Info.plist";
+				PRODUCT_NAME = Purgify;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36903E701579917300072262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Development/tCB/Repositorium/Purgify/Support/Growl\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purgify/Purgify-Prefix.pch";
+				INFOPLIST_FILE = "Purgify/Purgify-Info.plist";
+				PRODUCT_NAME = Purgify;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36903E4A1579917100072262 /* Build configuration list for PBXProject "Purgify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36903E6C1579917300072262 /* Debug */,
+				36903E6D1579917300072262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36903E6E1579917300072262 /* Build configuration list for PBXNativeTarget "Purgify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36903E6F1579917300072262 /* Debug */,
+				36903E701579917300072262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36903E471579917100072262 /* Project object */;
+}

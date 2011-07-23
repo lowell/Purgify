@@ -1,0 +1,12 @@
+//
+//  Purgify-Prefix.pch
+//  Purgify
+//
+//  Created by lowell on 7/20/2011
+//  Copyright (c) 2011 tCB. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <AppKit/AppKit.h>
+    #import <Foundation/Foundation.h>
+#endif
