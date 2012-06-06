@@ -1,0 +1,2 @@
+#define HG_REVISION 6025
+#define HG_REVISION_STRING "6025"
